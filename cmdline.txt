@@ -1,0 +1,32 @@
+1.	C:\USERS\ZG5>attrib
+	A  SH   I    C:\Users\zg5\NTUSER.DAT
+	A  SH        C:\Users\zg5\ntuser.dat.LOG1
+	A  SH        C:\Users\zg5\ntuser.dat.LOG2
+	A  SH        C:\Users\zg5\NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TM.bl
+	f
+	A  SH        C:\Users\zg5\NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMCon
+	tainer00000000000000000001.regtrans-ms
+	A  SH        C:\Users\zg5\NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMCon
+	tainer00000000000000000002.regtrans-ms
+	   SH        C:\Users\zg5\ntuser.ini
+
+	Microsoft Windows [Version 6.1.7600]
+	Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+	
+2.	C:\Users\zg5>ping 192.168.1.1
+
+	Pinging 192.168.1.1 with 32 bytes of data:
+	Reply from 192.168.1.1: bytes=32 time=175ms TTL=64
+	Reply from 192.168.1.1: bytes=32 time=118ms TTL=64
+	Reply from 192.168.1.1: bytes=32 time=73ms TTL=64
+	Request timed out.
+
+	Ping statistics for 192.168.1.1:
+	    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+	Approximate round trip times in milli-seconds:
+	    Minimum = 73ms, Maximum = 175ms, Average = 122ms
+
+3.	C:\Users\zg5>date /t
+	Mon 12/02/2019
+
+4.	
