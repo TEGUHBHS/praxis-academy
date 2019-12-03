@@ -1,0 +1,323 @@
+1.	C:\USERS\ZG5>attrib
+	A  SH   I    C:\Users\zg5\NTUSER.DAT
+	A  SH        C:\Users\zg5\ntuser.dat.LOG1
+	A  SH        C:\Users\zg5\ntuser.dat.LOG2
+	A  SH        C:\Users\zg5\NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TM.bl
+	f
+	A  SH        C:\Users\zg5\NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMCon
+	tainer00000000000000000001.regtrans-ms
+	A  SH        C:\Users\zg5\NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMCon
+	tainer00000000000000000002.regtrans-ms
+	   SH        C:\Users\zg5\ntuser.ini
+
+	Microsoft Windows [Version 6.1.7600]
+	Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+	
+2.	C:\Users\zg5>ping 192.168.1.1
+
+	Pinging 192.168.1.1 with 32 bytes of data:
+	Reply from 192.168.1.1: bytes=32 time=175ms TTL=64
+	Reply from 192.168.1.1: bytes=32 time=118ms TTL=64
+	Reply from 192.168.1.1: bytes=32 time=73ms TTL=64
+	Request timed out.
+
+	Ping statistics for 192.168.1.1:
+	    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+	Approximate round trip times in milli-seconds:
+	    Minimum = 73ms, Maximum = 175ms, Average = 122ms
+
+3.	C:\Users\zg5>date /t
+	Mon 12/02/2019
+
+4	C:\Users\zg5>cd d:
+	D:\
+
+5. C:\Users\zg5>hostname
+	zg5-PC
+	
+6.	attrib -h -r -s
+	munculkan hiden file, read only dan system
+
+7. C:\Users\zg5>ipconfig
+
+	Windows IP Configuration
+
+
+	Wireless LAN adapter Wireless Network Connection:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::1973:709c:873b:af6a%12
+   IPv4 Address. . . . . . . . . . . : 192.168.1.7
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::1%12
+                                       192.168.1.1
+
+	Ethernet adapter Local Area Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+	Tunnel adapter isatap.{0D9E5087-7EAC-4A44-9AEC-C6E7B05EC188}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+	Tunnel adapter isatap.{2D8078BE-1E57-4928-90DA-16208A4B4ECD}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+	Tunnel adapter Teredo Tunneling Pseudo-Interface:
+
+   Connection-specific DNS Suffix  . :
+   IPv6 Address. . . . . . . . . . . : 2001:0:2456:3fb6:3cdc:164e:3f57:fef8
+   Link-local IPv6 Address . . . . . : fe80::3cdc:164e:3f57:fef8%13
+   Default Gateway . . . . . . . . . : ::
+
+8. C:\Users\zg5>nslookup view
+	Server:  csp1.zte.com.cn
+	Address:  fe80::1
+
+	*** No internal type for both IPv4 and IPv6 Addresses (A+AAAA) records available
+	for view
+
+9. C:\Users\zg5>arp -a
+
+	Interface: 192.168.1.7 --- 0xc
+  Internet Address      Physical Address      Type
+  192.168.1.1           34-da-b7-e4-35-d0     dynamic
+  192.168.1.15          b8-86-87-2e-fb-7f     dynamic
+  192.168.1.18          80-e6-50-02-b5-fa     dynamic
+  192.168.1.26          ca-c1-a4-83-87-bb     dynamic
+  192.168.1.255         ff-ff-ff-ff-ff-ff     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+10. 
+	C:\Users\zg5>cd
+	C:\Users\zg5
+	C:\Users\zg5>cd..
+	C:\Users>
+
+11. 
+	C:\Users>echo
+	ECHO is on.
+
+12. C:\Users>date /t
+	Mon 12/02/2019
+
+13	C:\Users>netstat -a
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            zg5-PC:0               LISTENING
+  TCP    0.0.0.0:445            zg5-PC:0               LISTENING
+  TCP    0.0.0.0:49152          zg5-PC:0               LISTENING
+  TCP    0.0.0.0:49153          zg5-PC:0               LISTENING
+  TCP    0.0.0.0:49154          zg5-PC:0               LISTENING
+  TCP    0.0.0.0:49155          zg5-PC:0               LISTENING
+  TCP    0.0.0.0:49156          zg5-PC:0               LISTENING
+  TCP    0.0.0.0:49157          zg5-PC:0               LISTENING
+  TCP    127.0.0.1:5354         zg5-PC:0               LISTENING
+  TCP    192.168.1.7:139        zg5-PC:0               LISTENING
+  TCP    192.168.1.7:49332      sc-in-f188:5228        ESTABLISHED
+  TCP    192.168.1.7:49372      lb-140-82-114-26-iad:https  ESTABLISHED
+  TCP    192.168.1.7:49375      lb-140-82-114-26-iad:https  ESTABLISHED
+  TCP    192.168.1.7:49385      ec2-13-250-94-254:https  ESTABLISHED
+  TCP    192.168.1.7:49388      a23-15-251-198:https   ESTABLISHED
+  TCP    192.168.1.7:49389      a23-15-251-198:https   ESTABLISHED
+  TCP    192.168.1.7:49390      a23-15-251-198:https   ESTABLISHED
+  TCP    192.168.1.7:49391      200:https              ESTABLISHED
+  TCP    192.168.1.7:49400      133:https              ESTABLISHED
+  TCP    192.168.1.7:49401      133:https              ESTABLISHED
+  TCP    192.168.1.7:49402      133:https              ESTABLISHED
+  TCP    192.168.1.7:49404      133:https              ESTABLISHED
+  TCP    192.168.1.7:49405      133:https              ESTABLISHED
+  TCP    192.168.1.7:49406      55:https               ESTABLISHED
+  TCP    192.168.1.7:49414      254:https              ESTABLISHED
+  TCP    192.168.1.7:49420      ec2-13-229-188-59:https  ESTABLISHED
+  TCP    192.168.1.7:49422      ec2-13-229-188-59:https  ESTABLISHED
+  TCP    192.168.1.7:49423      ec2-13-229-188-59:https  ESTABLISHED
+  TCP    192.168.1.7:49424      ec2-13-229-188-59:https  ESTABLISHED
+  TCP    192.168.1.7:49425      lb-140-82-114-26-iad:https  ESTABLISHED
+  TCP    192.168.1.7:49426      111.221.29.254:https   ESTABLISHED
+  TCP    [::]:135               zg5-PC:0               LISTENING
+  TCP    [::]:445               zg5-PC:0               LISTENING
+  TCP    [::]:49152             zg5-PC:0               LISTENING
+  TCP    [::]:49153             zg5-PC:0               LISTENING
+  TCP    [::]:49154             zg5-PC:0               LISTENING
+  TCP    [::]:49155             zg5-PC:0               LISTENING
+  TCP    [::]:49156             zg5-PC:0               LISTENING
+  TCP    [::]:49157             zg5-PC:0               LISTENING
+  UDP    0.0.0.0:500            *:*
+  UDP    0.0.0.0:4500           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5355           *:*
+  UDP    0.0.0.0:49152          *:*
+  UDP    0.0.0.0:54648          *:*
+  UDP    0.0.0.0:62930          *:*
+  UDP    192.168.1.7:137        *:*
+  UDP    192.168.1.7:138        *:*
+  UDP    192.168.1.7:5353       *:*
+  UDP    [::]:500               *:*
+  UDP    [::]:4500              *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5355              *:*
+  UDP    [::]:49153             *:*
+
+14. C:\Users>pause
+	Press any key to continue . . .
+
+15. C:\Users>pause
+	Press any key to continue . . .
+
+	C:\Users>systeminfo
+
+	Host Name:                 ZG5-PC
+	OS Name:                   Microsoft Windows 7 Starter
+OS Version:                6.1.7600 N/A Build 7600
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          zg5
+Registered Organization:
+Product ID:                00342-OEM-8992752-30008
+Original Install Date:     1/1/2001, 1:25:08 AM
+System Boot Time:          12/2/2019, 12:50:18 PM
+System Manufacturer:       Acer
+System Model:              AOA150
+System Type:               X86-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: x86 Family 6 Model 28 Stepping 2 GenuineIntel ~
+1600 Mhz
+BIOS Version:              Acer v0.3310, 10/6/2008
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+07:00) Bangkok, Hanoi, Jakarta
+Total Physical Memory:     1,524 MB
+Available Physical Memory: 654 MB
+Virtual Memory: Max Size:  3,048 MB
+Virtual Memory: Available: 1,914 MB
+Virtual Memory: In Use:    1,134 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\ZG5-PC
+Hotfix(s):                 1 Hotfix(s) Installed.
+                           [01]: KB958488
+Network Card(s):           2 NIC(s) Installed.
+                           [01]: Realtek RTL8102E/RTL8103E Family PCI-E Fast Eth
+ernet NIC (NDIS 6.20)
+                                 Connection Name: Local Area Connection
+                                 Status:          Media disconnected
+                           [02]: Atheros AR5007EG Wireless Network Adapter
+                                 Connection Name: Wireless Network Connection
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.1.1
+                                 IP address(es)
+                                 [01]: 192.168.1.7
+                                 [02]: fe80::1973:709c:873b:af6a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7. 
