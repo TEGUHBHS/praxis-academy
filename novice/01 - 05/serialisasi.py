@@ -27,3 +27,10 @@ for o in data:
 	print 'WRITING: %s (%s)' % (o.name, o.name_backwards) 
 	pickle.dump(o, out_s) 
 	out_s.flush() 
+
+# C:\Users\zg5>C:/Python27/python.exe "c:/Users/zg5/praxis-academy/novice/01 - 05/serialisasi.py"
+# WRITING: pickle (elkcip)
+# WRITING: cPickle (elkciPc)
+# WRITING: last (tsal)
+# WRITING: teguh (huget)
+# WRITING: bhs (shb)
